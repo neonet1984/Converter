@@ -1,0 +1,13 @@
+ps:
+    gus:
+            snmp:
+                agent:
+                    enable:    "false"
+                    host:    "null"
+                    port:    "0"
+                    instance:    "1"
+            app:
+                jmx:
+                    enable:    "false"
+                shutdown:
+                    timeout:    "90s"
